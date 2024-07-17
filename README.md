@@ -34,7 +34,7 @@ Angular CLI
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## running the unit test
+## Running the unit test
 
 Run `ng test`.
 
