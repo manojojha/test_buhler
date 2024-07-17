@@ -1,23 +1,29 @@
+// Define variables for reusability
+$toolbar-height: 60px;
+$primary-color: #00aa9d;
+$background-color: #D3D3D3;
+
 .toolbar {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    height: 60px;
+    height: $toolbar-height;
     display: flex;
     align-items: center;
-    background-color: #D3D3D3;
+    background-color: $background-color;
     font-weight: 500;
-    border-bottom: 4px solid #00aa9d;
-}
+    border-bottom: 4px solid $primary-color;
 
-.toolbar img {
-    margin: 0 16px;
-}
+    // Nesting for .toolbar img selector
+    img {
+        margin: 0 16px;
+    }
 
-.time span {
-    padding: 4px;
-}
-.user-profile span {
-    padding: 4px;
+    // Nesting for .time span and .user-profile span selectors
+    .time, .user-profile {
+        span {
+            padding: 4px;
+        }
+    }
 }

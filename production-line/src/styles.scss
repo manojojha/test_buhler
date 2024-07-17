@@ -1,10 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+// You can add global styles to this file, and also import other style files
 // Reset default margin and padding
+@import 'assets/style/variable.scss';
+
 * {
     margin: 0;
     padding: 0;
 }
 
+// Define reusable classes and mixins
 .spacer {
     flex: 1;
 }
@@ -21,19 +24,21 @@
     margin-right: 20px;
 }
 
-// machine state colors
+// Define machine state colors using SCSS variables
+
+
 .running {
-    background-color: #D3D3D3;
+    background-color: $color-gray;
 }
 
 .alarm {
-    background-color: #FF0000;
-    color: #ffffff;
+    background-color: $color-red;
+    color: $color-white // White text color for contrast
 }
 
 .warning {
-    background-color: #ffa500;
-    color: #ffffff;
+    background-color: $color-orange;
+    color: $color-white; // White text color for contrast
 }
 
 .state-icon {
