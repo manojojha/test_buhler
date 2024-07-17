@@ -1,0 +1,13 @@
+<nav class="navbar">
+    <ul class="navbar-nav">
+        <li class="navbar-item" *ngFor="let machine of machines">
+            <div class="nav-link" [ngClass]="machine.state.toLowerCase()">
+                <span class="state-icon material-icons-outlined size-18">
+                    {{state[machine.state]}}
+                </span>
+                <span>{{machine.name}}</span>
+            </div>
+        </li>
+    </ul>
+
+</nav>

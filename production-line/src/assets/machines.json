@@ -1,0 +1,19 @@
+[
+    {
+      "name": "Scale",
+      "state": "Running"
+    },
+    {
+      "name": "Attacher",
+      "state": "Alarm"
+    },
+    {
+      "name": "Packer",
+      "state": "Running"
+    },
+    {
+      "name": "Closer",
+      "state": "Warning"
+    }
+  ]
+  

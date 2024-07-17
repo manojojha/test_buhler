@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+// Reset default margin and padding
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.margin-right {
+    margin-right: 20px;
+}
+
+// machine state colors
+.running {
+    background-color: #D3D3D3;
+}
+
+.alarm {
+    background-color: #FF0000;
+    color: #ffffff;
+}
+
+.warning {
+    background-color: #ffa500;
+    color: #ffffff;
+}
+
+.state-icon {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}

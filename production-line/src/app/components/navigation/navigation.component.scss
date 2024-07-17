@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 64px;
+    background-color: #D3D3D3;
+    font-weight: 500;
+}
+.navbar-nav {
+    display: flex;
+    list-style: none;
+}
+.navbar-item {
+   
+}
+.nav-link {
+    padding: 15px 20px;
+    width: 80px;
+    text-align: center;
+    position: relative;
+}
+
+span.size-18 {
+    font-size: 18px;
+    font-variation-settings: 'OPSZ' 18;
+}
+

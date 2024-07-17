@@ -1,0 +1,12 @@
+<div class="machine-container" [ngClass]="machine.state.toLowerCase()">
+    <span class="state-icon material-icons-outlined">
+        {{state[machine.state]}}
+    </span>
+    <div class="machine-item">
+        <span class="material-icons-outlined size-40">
+            {{machineIcon[machine.name]}}
+        </span>
+
+        <div>{{machine.name}}</div>
+    </div>
+</div>
