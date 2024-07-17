@@ -44,7 +44,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ![image](https://github.com/user-attachments/assets/f8e4ca5e-d548-4b7c-9ce6-61205f0dd383)
 
-#Responsiveness
+## Responsiveness
 Added a responsive scss code as well for overview component although it is not entirely responsive.
 ![image](https://github.com/user-attachments/assets/b59e9382-65ef-47dd-b50f-3f3e43d396a0)
 
